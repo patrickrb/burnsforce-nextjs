@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Projects() {
   return (
     <section id="projects" className="py-20 px-4 sm:px-6 lg:px-8">
@@ -6,9 +8,11 @@ export default function Projects() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="bg-white/5 backdrop-blur-sm rounded-lg overflow-hidden border border-white/10 group hover:border-purple-400/50 transition-all">
             <div className="h-48 relative overflow-hidden">
-              <img 
+              <Image 
                 src="/images/projects/flappy.png" 
                 alt="WebGL Flappy Bird Clone"
+                width={400}
+                height={200}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
               />
             </div>
@@ -27,9 +31,11 @@ export default function Projects() {
 
           <div className="bg-white/5 backdrop-blur-sm rounded-lg overflow-hidden border border-white/10 group hover:border-purple-400/50 transition-all">
             <div className="h-48 relative overflow-hidden">
-              <img 
+              <Image 
                 src="/images/projects/dice.png" 
                 alt="3D Dice Roller"
+                width={400}
+                height={200}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
               />
             </div>
@@ -48,9 +54,11 @@ export default function Projects() {
 
           <div className="bg-white/5 backdrop-blur-sm rounded-lg overflow-hidden border border-white/10 group hover:border-purple-400/50 transition-all">
             <div className="h-48 relative overflow-hidden">
-              <img 
+              <Image 
                 src="/images/projects/tornado.png" 
                 alt="Tornado Simulation"
+                width={400}
+                height={200}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
               />
             </div>
@@ -69,9 +77,11 @@ export default function Projects() {
 
           <div className="bg-white/5 backdrop-blur-sm rounded-lg overflow-hidden border border-white/10 group hover:border-purple-400/50 transition-all">
             <div className="h-48 relative overflow-hidden">
-              <img 
+              <Image 
                 src="/images/projects/moodify.png" 
                 alt="Moodify Mood Analysis"
+                width={400}
+                height={200}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
               />
             </div>
@@ -90,9 +100,11 @@ export default function Projects() {
 
           <div className="bg-white/5 backdrop-blur-sm rounded-lg overflow-hidden border border-white/10 group hover:border-purple-400/50 transition-all">
             <div className="h-48 relative overflow-hidden">
-              <img 
+              <Image 
                 src="/images/projects/chausage.png" 
                 alt="Chausage Social Jukebox"
+                width={400}
+                height={200}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
               />
             </div>
@@ -111,9 +123,11 @@ export default function Projects() {
 
           <div className="bg-white/5 backdrop-blur-sm rounded-lg overflow-hidden border border-white/10 group hover:border-purple-400/50 transition-all">
             <div className="h-48 relative overflow-hidden">
-              <img 
+              <Image 
                 src="/images/projects/soundboardr.png" 
                 alt="Soundboardr Prank Call App"
+                width={400}
+                height={200}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
               />
             </div>

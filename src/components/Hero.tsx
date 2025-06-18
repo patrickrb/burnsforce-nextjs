@@ -1,11 +1,15 @@
+import Image from 'next/image';
+
 export default function Hero() {
   return (
     <section className="pt-24 pb-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto text-center">
         <div className="mb-8">
-          <img 
+          <Image 
             src="/images/profile.jpg" 
             alt="Patrick Burns Profile"
+            width={160}
+            height={160}
             className="w-32 h-32 sm:w-40 sm:h-40 rounded-full mx-auto mb-6 border-4 border-purple-400/50 shadow-lg"
           />
         </div>
