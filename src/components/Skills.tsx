@@ -7,7 +7,7 @@ export default function Skills() {
           <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10">
             <h3 className="text-xl font-semibold text-white mb-4">Frontend</h3>
             <div className="flex flex-wrap gap-2">
-              {['Angular', 'JavaScript', 'TypeScript', 'Three.js', 'Ionic', 'HTML/CSS'].map((skill) => (
+              {['React', 'JavaScript', 'TypeScript', 'Three.js', 'Ionic', 'HTML/CSS', 'Angular'].map((skill) => (
                 <span key={skill} className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">
                   {skill}
                 </span>
@@ -17,7 +17,7 @@ export default function Skills() {
           <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10">
             <h3 className="text-xl font-semibold text-white mb-4">Backend</h3>
             <div className="flex flex-wrap gap-2">
-              {['Node.js', 'Express', 'MongoDB', 'RESTful APIs', 'WebSockets', 'Asterisk'].map((skill) => (
+              {['Node.js', 'Express', 'MongoDB', 'RESTful APIs', 'WebSockets', 'Asterisk', 'C#'].map((skill) => (
                 <span key={skill} className="bg-pink-500/20 text-pink-300 px-3 py-1 rounded-full text-sm">
                   {skill}
                 </span>
@@ -27,7 +27,7 @@ export default function Skills() {
           <div className="bg-white/5 backdrop-blur-sm rounded-lg p-6 border border-white/10">
             <h3 className="text-xl font-semibold text-white mb-4">AI & Security</h3>
             <div className="flex flex-wrap gap-2">
-              {['Machine Learning', 'Security Copilot', 'Threat Intelligence', 'Speech-to-Text', 'uClassify'].map((skill) => (
+              {['Machine Learning', 'Security Copilot', 'Threat Intelligence'].map((skill) => (
                 <span key={skill} className="bg-green-500/20 text-green-300 px-3 py-1 rounded-full text-sm">
                   {skill}
                 </span>

@@ -24,6 +24,9 @@ export default function Organizations() {
               Regular speaker delivering talks including the recurring &quot;SecKC 101&quot; sessions, designed to welcome newcomers 
               and introduce them to the culture, values, and opportunities within the thriving security community.
             </p>
+            <p className="text-gray-300 mb-4">
+              Visit us at <a href="https://seckc.org" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 underline">seckc.org</a>
+            </p>
             <div className="flex flex-wrap gap-2">
               <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">Information Security</span>
               <span className="bg-pink-500/20 text-pink-300 px-3 py-1 rounded-full text-sm">Community Leadership</span>

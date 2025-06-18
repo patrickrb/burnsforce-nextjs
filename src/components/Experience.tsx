@@ -24,6 +24,8 @@ export default function Experience() {
               <span className="bg-green-500/20 text-green-300 px-3 py-1 rounded-full text-sm">React</span>
               <span className="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm">AI/ML</span>
               <span className="bg-pink-500/20 text-pink-300 px-3 py-1 rounded-full text-sm">Prompt Engineering</span>
+              <span className="bg-indigo-500/20 text-indigo-300 px-3 py-1 rounded-full text-sm">C#</span>
+              <span className="bg-red-500/20 text-red-300 px-3 py-1 rounded-full text-sm">Cybersecurity</span>
             </div>
           </div>
 
