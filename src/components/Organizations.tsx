@@ -21,7 +21,7 @@ export default function Organizations() {
               outreach, shaping event content, and fostering an inclusive environment for learning and networking.
             </p>
             <p className="text-gray-300 mb-4">
-              Regular speaker delivering talks including the recurring "SecKC 101" sessions, designed to welcome newcomers 
+              Regular speaker delivering talks including the recurring &quot;SecKC 101&quot; sessions, designed to welcome newcomers 
               and introduce them to the culture, values, and opportunities within the thriving security community.
             </p>
             <div className="flex flex-wrap gap-2">

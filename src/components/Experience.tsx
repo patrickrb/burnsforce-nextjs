@@ -111,7 +111,7 @@ export default function Experience() {
             </div>
             <p className="text-gray-300 mb-4">
               Developed a new SaaS product for digital signage using PHP, JavaScript, jQuery, AJAX, PostgreSQL, 
-              HTML5, and CSS3. Created administrative panels with RESTful APIs and integrated with Rackspace's 
+              HTML5, and CSS3. Created administrative panels with RESTful APIs and integrated with Rackspace&apos;s 
               Cloud Server API for automated server provisioning.
             </p>
             <div className="flex flex-wrap gap-2">
